@@ -1,3 +1,3 @@
 # Reinforcement-learning-in-an-edge-computing-environment
 
-In an edge computing environment, apply Deterministic Determine Policy Gradient (DDPG) to allocate the resources of each user, such as offload targets, calculation capability, migration size
+The project aims to use reinforce learning model to allocate the resource in an edge computing environment. In the simulation environment, fog servers provide computing resources for their clients to use service and migrate offload tasks to appropriate servers to improve QoS according to the movement of mobile users. Determining the offloading server of each user is a discreet problem and allocating computing resources and migration bandwidth is a continuous problem, so Deep Deterministic Policy Gradient (DDPG) can solve both problems and updating learning weight every step can adapt to a stochastic environment quickly.
